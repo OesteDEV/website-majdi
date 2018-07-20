@@ -363,8 +363,6 @@ h2 {
 
 /*about*/
 #about {
-    padding-top: 7em;
-    padding-bottom: 7em;
     background-color: #7bbedc;
 }
 h1.hidden-xs.hidden-sm {
@@ -375,16 +373,15 @@ h1.hidden-xs.hidden-sm {
 p.text-justify {
     color: aliceblue;
     font-size: initial;
+    padding: 2em;
 }
 /*end about*/
 
 #post {
-    padding: 7em;
     background-color: #f6fff2;
 }
 
 #contact {
-    padding: 7em;
     background-color: #cbe7f7;
 }
 #footer {
@@ -403,8 +400,7 @@ p.text-justify {
 }
 #newsletter {
     background-color: #ffffff;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding: 1em;
 }
 #name {
     width: -webkit-fill-available;
