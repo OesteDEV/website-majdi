@@ -1,32 +1,20 @@
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
-    margin-left: -15px;
-    margin-right: -15px;
 }
-h2 {
-    font-size: 24px;
-    text-transform: uppercase;
-    color: #303030;
-    font-weight: 600;
-    margin-bottom: 30px;
-}
-h4 {
-    font-size: 30px;
-    color: #2d4d6f;
-    font-weight: bolder;
-    text-align: center;
-}
+
 .bg-grey {
     background-color: #f6f6f6;
 }
 .logo-small {
     color: #f4511e;
     font-size: 50px;
+    font-family: 'Cutive Mono', monospace;
 }
 .logo {
     color: #f4511e;
     font-size: 200px;
+    font-family: 'Cutive Mono', monospace;
 }
 .thumbnail {
     padding: 0 0 15px 0;
@@ -54,6 +42,7 @@ h4 {
     font-weight: 400;
     font-style: italic;
     margin: 70px 0;
+    font-family: 'Cutive Mono', monospace;
 }
 .item span {
     font-style: normal;
@@ -86,10 +75,12 @@ h4 {
 }
 .panel-footer h3 {
     font-size: 32px;
+    font-family: 'Cutive Mono', monospace;
 }
 .panel-footer h4 {
     color: #aaa;
     font-size: 14px;
+    font-family: 'Cutive Mono', monospace;
 }
 .panel-footer .btn {
     margin: 15px 0;
@@ -98,14 +89,14 @@ h4 {
 }
 .navbar {
     margin-bottom: 0;
-    background-color: #6acbe6;
+    background-color: #0372a5;
     z-index: 9999;
     border: 0;
-    font-size: 12px !important;
+    font-size: 16px !important;
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
     border-radius: 0;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Cutive Mono', monospace;
     height: 65px;
     padding: 5px;
 }
@@ -124,6 +115,7 @@ footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
     color: #fff;
+    font-family: 'Cutive Mono', monospace;
 }
 .slideanim {visibility:hidden;}
 .slide {
@@ -166,6 +158,7 @@ footer .glyphicon {
 @media screen and (max-width: 480px) {
   .logo {
       font-size: 150px;
+      font-family: 'Cutive Mono', monospace;
   }
 }
 
@@ -186,7 +179,7 @@ h3 {
 
 section{
     padding:60px 0px;
-    font-family: Montserrat, sans-serif;;
+    font-family: 'Cutive Mono', monospace;
 }
 
 h2 {
@@ -195,7 +188,7 @@ h2 {
     font-size: 30px;
     font-weight: 700;
     margin-bottom:30px;
-    font-family: Montserrat, sans-serif;;
+    font-family: 'Cutive Mono', monospace;
 }
 
 .ion-minus{
@@ -221,6 +214,7 @@ h2 {
     font-size: 13px;
     font-weight: 600;
     margin-top: 10px;
+    font-family: 'Cutive Mono', monospace;
 }
 /*end blog*/
 
@@ -313,6 +307,7 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
+  font-family: 'Cutive Mono', monospace;
   color: rgba(255, 255, 255, 0.7);
 }
 #portfolio-list li a .case-studies-summary h2 {
@@ -322,6 +317,7 @@ h2 {
 @media screen and (max-width: 768px) {
   #portfolio-list li a .case-studies-summary h2 {
     font-size: 20px;
+    font-family: 'Cutive Mono', monospace;
   }
 }
 #portfolio-list li.two-third {
@@ -363,17 +359,35 @@ h2 {
 
 /*about*/
 #about {
-    background-color: #7bbedc;
+    background-image: url(../img/background/1.jpg);
+    background-repeat: repeat-y;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    background-size: cover;
+}
+
+
+#campaings-container {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.title-campaings {
+    line-height: 25px;
+    font-size: x-large;
+    font-weight: bold;
 }
 h1.hidden-xs.hidden-sm {
     color: aliceblue;
     font-size: 40px;
-    font-family: Montserrat, sans-serif;;
+    font-family: 'Cutive Mono', monospace;
 }
 p.text-justify {
     color: aliceblue;
     font-size: initial;
     padding: 2em;
+    font-family: 'Cutive Mono', monospace;
 }
 /*end about*/
 
@@ -381,25 +395,30 @@ p.text-justify {
     background-color: #f6fff2;
 }
 
-#contact {
-    background-color: #cbe7f7;
+#contact-container {
+    background-image: url(../img/background/2.png);
+    background-repeat: repeat-y;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    background-size: cover;
 }
 #footer {
-    background-color: #0c376b;
+    background-color: #0071ab;
     color: snow;
     font-size: 13px;
+    padding: 0.5em;
 }
 #copyright {
-    background-color: #000000bf;
+    background-color: #000000;
     padding-top: 0.5em;
     color: burlywood;
     font-size: 10px;
+    font-family: 'Cutive Mono', monospace;
 }
 .bg-blue{
-  background-color: #6acbe6;
+  background-color: #0372a5;
 }
 #newsletter {
-    background-color: #ffffff;
     padding: 1em;
 }
 #name {
@@ -436,7 +455,7 @@ ul.socialIcons {
     line-height: 1.5em;
     transition:.5s;
     text-decoration: none;
-    font-family: arial;
+    font-family: 'Cutive Mono', monospace;
     color: #fff;
 }
 .socialIcons li i {
@@ -479,9 +498,139 @@ li {
 
 a#icon-social {
     font-size: x-large;
+    font-family: 'Cutive Mono', monospace;
 }
 
 a#icon-social-footer {
     margin: 10px;
     font-size: 20px;
+    font-family: 'Cutive Mono', monospace;
+}
+
+
+
+.carousel-control .glyphicon-chevron-right, .fa-angle-right, .carousel-control .icon-next {
+    right:30%;
+    margin-right: -10px;
+}
+.carousel-control .glyphicon-chevron-left, .fa-angle-left, .carousel-control .icon-next {
+    left:30%;
+    margin-left: -10px;
+}
+.carousel-control .glyphicon-chevron-left, .fa-angle-left, .carousel-control .glyphicon-chevron-right, .fa-angle-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 25px;
+    background: black;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+  line-height: 30px;
+}
+/*======= media queries in css =======*/
+
+/*////////////// XTRA SMALL DEVICES( mobile phones ) //////////////*/
+@media (min-width: 300px) and (max-width: 479px){  
+.carousel-control .glyphicon-chevron-left, .fa-angle-left, .carousel-control .glyphicon-chevron-right, .fa-angle-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+    font-size: 20px;
+    font-family: 'Cutive Mono', monospace;
+    background: black;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 10px;
+}
+.carousel-control .glyphicon-chevron-right, .fa-angle-right, .carousel-control .icon-next {
+    right:30%;
+    margin-right: -10px;
+}
+.carousel-control .glyphicon-chevron-left, .fa-angle-left, .carousel-control .icon-next {
+    left:30%;
+    margin-left: -10px;
+}
+  }
+
+/*////////////// TAB OR LARGE MOBILE PHONE //////////////*/
+@media (min-width: 768px) and (max-width: 991px){  
+.carousel-control .glyphicon-chevron-left, .fa-angle-left, .carousel-control .glyphicon-chevron-right, .fa-angle-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+    font-size: 20px;
+    font-family: 'Cutive Mono', monospace;
+    background: black;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 10px;
+}
+.carousel-control .glyphicon-chevron-right, .fa-angle-right, .carousel-control .icon-next {
+    right:30%;
+    margin-right: -10px;
+}
+.carousel-control .glyphicon-chevron-left, .fa-angle-left, .carousel-control .icon-next {
+    left:30%;
+    margin-left: -10px;
+}
+  }
+
+/*////////////// MEDIUM DEVICES LAPTOPS //////////////*/
+@media (min-width: 992px) and (max-width: 1199px){  
+.carousel-control .glyphicon-chevron-left, .fa-angle-left, .carousel-control .glyphicon-chevron-right, .fa-angle-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+    font-size: 20px;
+    font-family: 'Cutive Mono', monospace;
+    background: black;
+    padding: 10px;
+    width:40px;
+    height:40px;
+    line-height: 10px;
+}
+.carousel-control .glyphicon-chevron-right, .fa-angle-right, .carousel-control .icon-next {
+    right:30%;
+    margin-right: -10px;
+}
+.carousel-control .glyphicon-chevron-left, .fa-angle-left, .carousel-control .icon-next {
+    left:30%;
+    margin-left: -10px;
+}
+  }
+
+.margen {
+    margin-top: 2em;
+}
+
+.margen a {
+    color: black;
+}
+
+
+#home {
+    padding-top: 4em;
+}
+
+.cultive{
+    font-family: 'Cutive Mono', monospace;
+    font-size: 14px;
+  }
+
+.cultive-about{
+  font-family: 'Cutive Mono', monospace;
+  font-size: 14px;
+  color: azure;
 }
