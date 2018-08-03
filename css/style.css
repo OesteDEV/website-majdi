@@ -218,144 +218,51 @@ h2 {
 }
 /*end blog*/
 
-
-/*portfolio*/
-
-#portfolio {
-    padding: 7em 0;
-    min-height: 500px;
-    background-color: #ffffff;
+.post {
+    background-color: #8a85713b;
+    overflow: hidden;
+    box-shadow: 0 0 1px #CCC;
 }
-@media screen and (max-width: 768px) {
-  #portfolio {
-    padding: 2em;
-  }
+#campaings {
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
-
-#portfolio-list {
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  position: relative;
-  float: left;
-  padding: 0;
-  margin: 0;
-  width: 100%;
+.post .content
+{
+    padding: 15px;
 }
-#portfolio-list li {
-  display: block;
-  padding: 0;
-  margin: 0 0 10px 1%;
-  list-style: none;
-  min-height: 400px;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  float: left;
-  clear: left;
-  position: relative;
+.post .author
+{
+    font-size: 11px;
+    color: #737373;
+    padding: 25px 30px 20px;
 }
-@media screen and (max-width: 480px) {
-  #portfolio-list li {
-    margin-left: 0;
-  }
+.post .post-img-content
+{
+    height: 196px;
+    position: relative;
 }
-#portfolio-list li a {
-  min-height: 400px;
-  padding: 2em;
-  position: relative;
-  width: 100%;
-  display: block;
+.post .post-img-content img
+{
+    position: absolute;
 }
-#portfolio-list li a:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: "";
-  z-index: 80;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-  background: transparent;
+.post .post-title
+{
+    display: table-cell;
+    vertical-align: bottom;
+    z-index: 2;
+    position: relative;
 }
-#portfolio-list li a:hover:before {
-  background: rgba(0, 0, 0, 0.5);
-}
-#portfolio-list li a .case-studies-summary {
-  width: auto;
-  bottom: 2em;
-  left: 2em;
-  right: 2em;
-  position: absolute;
-  z-index: 100;
-}
-@media screen and (max-width: 768px) {
-  #portfolio-list li a .case-studies-summary {
-    bottom: 1em;
-    left: 1em;
-    right: 1em;
-  }
-}
-#portfolio-list li a .case-studies-summary span {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 13px;
-  font-family: 'Cutive Mono', monospace;
-  color: rgba(255, 255, 255, 0.7);
-}
-#portfolio-list li a .case-studies-summary h2 {
-  color: #fff;
-  margin-bottom: 0;
-}
-@media screen and (max-width: 768px) {
-  #portfolio-list li a .case-studies-summary h2 {
-    font-size: 20px;
-    font-family: 'Cutive Mono', monospace;
-  }
-}
-#portfolio-list li.two-third {
-  width: 65.6%;
-}
-@media screen and (max-width: 768px) {
-  #portfolio-list li.two-third {
-    width: 49%;
-  }
-}
-@media screen and (max-width: 480px) {
-  #portfolio-list li.two-third {
-    width: 100%;
-  }
-}
-#portfolio-list li.one-third {
-  width: 32.3%;
-}
-@media screen and (max-width: 768px) {
-  #portfolio-list li.one-third {
-    width: 49%;
-  }
-}
-@media screen and (max-width: 480px) {
-  #portfolio-list li.one-third {
-    width: 100%;
-  }
-}
-#portfolio-list li.one-half {
-  width: 49%;
-}
-@media screen and (max-width: 480px) {
-  #portfolio-list li.one-half {
-    width: 100%;
-  }
+.post .post-title b
+{
+    background-color: rgba(51, 51, 51, 0.58);
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #FFF;
+    padding: 10px 15px;
+    margin-top: 5px;
 }
 
-/*end portfolio*/
 
 /*about*/
 #about {
@@ -402,11 +309,29 @@ p.text-justify {
     padding-bottom: 7em;
     background-size: cover;
 }
+#newsletter {
+    background-color: #9dc3d6;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    background-size: cover;
+}
+#follow {
+    background-image: url(../img/background/2.jpg);
+    background-repeat: repeat-y;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background-size: cover;
+}
+#campaings {
+
+    padding-top: 7em;
+    padding-bottom: 7em;
+    background-size: cover;
+}
 #footer {
     background-color: #0071ab;
     color: snow;
     font-size: 13px;
-    padding: 0.5em;
 }
 #copyright {
     background-color: #000000;
@@ -447,10 +372,10 @@ ul.socialIcons {
 }
 .socialIcons li a {
     display: block;
-    padding: .5em;
-    max-width: 2.3em;
-    min-width: 2.3em;
-    height: 2.3em;
+    padding: 0.9em;
+    max-width: 10em;
+    min-width: 10em;
+    height: 3.3em;
     white-space: nowrap;
     line-height: 1.5em;
     transition:.5s;
@@ -497,8 +422,8 @@ li {
 
 
 a#icon-social {
-    font-size: x-large;
-    font-family: 'Cutive Mono', monospace;
+    font-size: 16px;
+    font-family: unset;
 }
 
 a#icon-social-footer {
@@ -612,7 +537,7 @@ a#icon-social-footer {
   }
 
 .margen {
-    margin-top: 2em;
+    margin-top: 4em;
 }
 
 .margen a {
@@ -623,14 +548,38 @@ a#icon-social-footer {
 #home {
     padding-top: 4em;
 }
-
-.cultive{
+.cultive {
     font-family: 'Cutive Mono', monospace;
-    font-size: 14px;
-  }
-
+    font-size: 16px;
+    font-weight: 900;
+    color: wheat;
+}
+.cultiveh2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #0d7f9a;
+}
 .cultive-about{
   font-family: 'Cutive Mono', monospace;
-  font-size: 14px;
+  font-size: 12px;
   color: azure;
+}
+.cultivecopy {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 11px;
+    color: white;
+}
+.subtitle {
+    color: #fff;
+    background-color: #44525a;
+    min-height: 100px;
+    padding: 10px;
+}
+
+.text-p {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 16px;
+    font-weight: 900;
+    color: #075da5;
 }
