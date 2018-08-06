@@ -29,7 +29,7 @@ body {
 }
 
 .post {
-    background-color: #eaeaea3b;
+    background-color: #b7b1b169;
     overflow: hidden;
     padding: 1.3em;
 }
@@ -135,13 +135,19 @@ li {
     font-family: 'Cutive Mono', monospace;
     font-size: 16px;
     font-weight: 900;
-    color: wheat;
+    color: black;
 }
 .cultiveh2 {
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 900;
     color: #0295e8;
+}
+.cultive-post {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 30px;
+    font-weight: bold;
+    color: #4c4c4c;
 }
 .cultive-about{
   font-family: 'Cutive Mono', monospace;
@@ -167,6 +173,13 @@ li {
 }
 .transparent {
     background-color: #f0ffff80;
+    text-align: center;
+    font-size: 20px;
+    padding: 1em;
+    font-weight: 900;
+    color: black;
+    margin: auto;
+    font-family: 'Cutive Mono', monospace;
 }
 .fluid {
     margin-right: auto;
@@ -180,6 +193,7 @@ li {
     background-image: url(../img/background.jpg);
     background-repeat: repeat-y;
     background-size: cover;
+    background-position: center;
 }
 .footer {
     background-color: #0071ab;
@@ -194,5 +208,15 @@ li {
     background-color: #e2dfdf;
 }
 .follow {
-    background-color: #e2dfdf;
+    background-color: #ffffff;
+}
+.form {
+    background-color: #b3b3b38f;
+    padding: 1em;
+}
+.form-contact {
+    background-image: url(../img/contact.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
 }
