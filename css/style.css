@@ -27,6 +27,12 @@ body {
     border-color: transparent;
     color: #fff !important;
 }
+.cultive-title {
+    padding-top: 8px;
+    padding-left: 40px;
+    color: white;
+    font-size: 14px;
+}
 
 .post {
     background-color: #b7b1b169;
@@ -34,6 +40,9 @@ body {
     padding: 1.3em;
 }
 
+.imagen-responsive {
+    padding: 0.5em;
+}
 .post .content
 {
     padding: 15px;
@@ -90,11 +99,18 @@ p.text-justify {
 .bg-blue{
   background-color: #0372a5;
 }
-
-#majdi {
-    padding-top: 5px;
+.nav li:hover{
+  background-color: #1489bf;
 }
 
+#majdi {
+    padding: 1em;
+}
+.org {
+    font-family: 'Cutive Mono', monospace;
+    color: #ffffff;
+    font-size: 13px;
+}
 /*social*/
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 
@@ -201,12 +217,16 @@ li {
     background-repeat: repeat-y;
     background-size: cover;
     background-position: center;
+    height: 500px;
+}
+.boton {
+    padding-top: 14em;
 }
 .footer {
     background-color: #0071ab;
 }
 .copyright {
-    background-color: #000000;
+    background-color: #2d2a2a;
 }
 .campaings {
     background-color: #FFFFFF;
@@ -235,3 +255,14 @@ li {
     min-height: 650px;
     padding-top: 8em;
 }
+
+#myCarousel .nav a small {
+    display:block;
+}
+#myCarousel .nav {
+    background:#eee;
+}
+#myCarousel .nav a {
+    border-radius:0px;
+}
+
